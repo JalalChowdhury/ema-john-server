@@ -58,3 +58,8 @@ app.listen(port, ()=>{
     console.log("surver running at port ",port);
     // EM4D8cLpkIcCGqwy - fff
 })
+
+//for ck
+app.get('/hello', (req,res)=>{
+    res.send('hello updated here');
+})
